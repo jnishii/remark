@@ -73,12 +73,6 @@
 <body>
   <!-- Offline caching https://github.com/TalAter/UpUp -->
   <script src="http://localhost/~jun/Sites/Slides/UpUp/dist/upup.min.js"></script>
-  <script>
-  UpUp.start({
-    'content-url': 'offline-<<NAME>>.html',
-    'assets': ['/img/logo.png', '/css/style.css', 'headlines.json']
-  });
-  </script>
 
   <script src="http://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
@@ -98,7 +92,7 @@
     navigation: {
       //    scroll: false,
     },
-        sourceUrl: (query ? query : "remarkjs.md")
+        sourceUrl: (query ? query : "sample.md")
     });
 
     // Setup MathJax
