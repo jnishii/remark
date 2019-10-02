@@ -1,0 +1,4 @@
+#!/bin/sh
+
+URL="http://0.0.0.0:8000/"
+open -a Google\ Chrome.app "${URL}/remark.html?${1}"
